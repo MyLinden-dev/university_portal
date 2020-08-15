@@ -1,0 +1,13 @@
+Работа с изобр из БД.
+1. Все изобр, которые загружаются в БД храняться в D:\OSPanel\domains\donntu_portal\common\dbimg.
+2. Надо создать символические ссылки 
+	D:\OSPanel\domains\donntu_portal\backend\web\dbimg 
+	и 
+	D:\OSPanel\domains\donntu_portal\frontend\web\dbimg
+	с помощью команд, введенных через консоль, запущенную от имени админа:
+	mklink /d "D:\OSPanel\domains\donntu_portal\backend\web\dbimg" 
+	"D:\OSPanel\domains\donntu_portal\common\dbimg"
+	
+	mklink /d "D:\OSPanel\domains\donntu_portal\frontend\web\dbimg" "D:\OSPanel\domains\donntu_portal\common\dbimg"
+3. Для отображения на сайте берется title_image.
+4. Для нахождения пути изобр при испольповании только БД используется path_image, в котром указывается путь D:\OSPanel\domains\donntu_portal\common\dbimg. (например, когда другое приложение или другой админ хочет узнать, где хранится изобр)

@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/SF-PRO-DISPLAY-REGULAR.otf");
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/SF-PRO-DISPLAY-BOLD.otf");
+}
+
+$font-regular: "SF Pro Display", sans-serif;

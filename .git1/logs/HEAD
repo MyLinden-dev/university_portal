@@ -1,0 +1,19 @@
+0000000000000000000000000000000000000000 b112254324ce875fcbefee0fd8a91932c567419a mylinden <lipova.elvira@gmail.com> 1546713236 +0300	clone: from git@bitbucket.org:donntu_portal/donntu_portal.git
+b112254324ce875fcbefee0fd8a91932c567419a 7f2cee8795c57329226940673d5579982ac8f1c7 mylinden <lipova.elvira@gmail.com> 1548079319 +0300	commit: Бэкенд
+7f2cee8795c57329226940673d5579982ac8f1c7 d6ad0ecb357c68b424961e1a9db799a1788027c7 mylinden <lipova.elvira@gmail.com> 1548080222 +0300	commit (merge): Merge branch 'master' of bitbucket.org:donntu_portal/donntu_portal
+d6ad0ecb357c68b424961e1a9db799a1788027c7 452bfc40f8a2f12879fd2df6bba50a1d2fd1449d mylinden <lipova.elvira@gmail.com> 1548080582 +0300	commit: Пуф-пуф
+452bfc40f8a2f12879fd2df6bba50a1d2fd1449d fb02205932bf2209b88b225e3d35ba0a73b7ecaa mylinden <lipova.elvira@gmail.com> 1548099409 +0300	commit: мелкие фиксы
+fb02205932bf2209b88b225e3d35ba0a73b7ecaa fb02205932bf2209b88b225e3d35ba0a73b7ecaa mylinden <lipova.elvira@gmail.com> 1548100267 +0300	reset: moving to fb02205932bf2209b88b225e3d35ba0a73b7ecaa
+fb02205932bf2209b88b225e3d35ba0a73b7ecaa fb02205932bf2209b88b225e3d35ba0a73b7ecaa mylinden <lipova.elvira@gmail.com> 1548100313 +0300	reset: moving to fb02205932bf2209b88b225e3d35ba0a73b7ecaa
+fb02205932bf2209b88b225e3d35ba0a73b7ecaa 605e6d9fe7d772db2a434f85fa6c280795e2ea07 mylinden <lipova.elvira@gmail.com> 1548100458 +0300	commit: 1
+605e6d9fe7d772db2a434f85fa6c280795e2ea07 52e22f0219c46eb7fcfdcb3cec4fdb93b7352639 mylinden <lipova.elvira@gmail.com> 1548149133 +0300	commit (merge): Merge branch 'master' of bitbucket.org:donntu_portal/donntu_portal
+52e22f0219c46eb7fcfdcb3cec4fdb93b7352639 fb02205932bf2209b88b225e3d35ba0a73b7ecaa mylinden <lipova.elvira@gmail.com> 1548149165 +0300	reset: moving to fb02205932bf2209b88b225e3d35ba0a73b7ecaa
+fb02205932bf2209b88b225e3d35ba0a73b7ecaa fb02205932bf2209b88b225e3d35ba0a73b7ecaa mylinden <lipova.elvira@gmail.com> 1548149177 +0300	reset: moving to fb02205932bf2209b88b225e3d35ba0a73b7ecaa
+fb02205932bf2209b88b225e3d35ba0a73b7ecaa b5082fa6704f97cd110797fcfd977e90c9682ed5 mylinden <lipova.elvira@gmail.com> 1549122265 +0300	commit: main
+b5082fa6704f97cd110797fcfd977e90c9682ed5 fb02205932bf2209b88b225e3d35ba0a73b7ecaa mylinden <lipova.elvira@gmail.com> 1549122313 +0300	reset: moving to fb02205932bf2209b88b225e3d35ba0a73b7ecaa
+fb02205932bf2209b88b225e3d35ba0a73b7ecaa b5082fa6704f97cd110797fcfd977e90c9682ed5 mylinden <lipova.elvira@gmail.com> 1549122353 +0300	checkout: moving from master to Branch_b5082fa
+b5082fa6704f97cd110797fcfd977e90c9682ed5 fb02205932bf2209b88b225e3d35ba0a73b7ecaa mylinden <lipova.elvira@gmail.com> 1549122371 +0300	checkout: moving from Branch_b5082fa to master
+fb02205932bf2209b88b225e3d35ba0a73b7ecaa 29050badff24a9b010b302e86d058be557a09033 mylinden <lipova.elvira@gmail.com> 1549122624 +0300	pull --progress -v --no-rebase origin: Fast-forward
+29050badff24a9b010b302e86d058be557a09033 1f8201bebfe80f4d6e2a112c8a32e32fe431456f mylinden <lipova.elvira@gmail.com> 1550327624 +0300	commit: События
+1f8201bebfe80f4d6e2a112c8a32e32fe431456f 841aaf18027f10f123633cc5f465f29d3a6c828f mylinden <lipova.elvira@gmail.com> 1552334791 +0300	commit: Настроена работа с изображениями. Самое сложное в админке уже сделано.
+841aaf18027f10f123633cc5f465f29d3a6c828f 87e2ca048f54a00447da32e0040bba432c7f8d14 mylinden <lipova.elvira@gmail.com> 1552543322 +0300	commit: Добавила ПЗ по соновному наполнению сайта

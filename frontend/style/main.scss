@@ -1,0 +1,30 @@
+
+
+@import "../../bower_components/normalize.css/normalize.css";
+
+@import "../../bower_components/bootstrap/scss/bootstrap.scss";
+@import "../../bower_components/swiper/dist/css/swiper.css";
+@import "../../bower_components/components-font-awesome/scss/fontawesome.scss";
+@import "../../bower_components/components-font-awesome/scss/fa-brands.scss";
+@import "../../bower_components/components-font-awesome/scss/fa-regular.scss";
+@import "../../bower_components/components-font-awesome/scss/fa-solid.scss";
+
+
+/*
+* Custom
+*/
+@import "add/utils/mixins";
+@import "add/utils/function";
+@import "add/base/fonts";
+@import "add/base/colors";
+@import "add/base/core";
+
+@import "add/components/news_expand";
+@import "add/components/header";
+@import "add/components/footer";
+@import "add/components/navbar";
+@import "add/components/swiper";
+@import "add/components/content";
+@import "add/components/modal_question";
+@import "add/components/calendar";
+@import "add/components/news";

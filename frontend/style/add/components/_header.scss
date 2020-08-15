@@ -1,0 +1,136 @@
+.header {
+  background: #fff;
+
+  .header-top {
+    height: 50px;
+    background: $header-font;
+    font-size: 1rem;
+    color: white;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+  }
+
+  .header-social {
+    ul {
+      list-style: none;
+      margin: 0;
+
+      li {
+        display: inline-block;
+        text-align: center;
+        margin: 0;
+        width: 67px;
+        padding: 4px 0 4px 4px;
+
+        border-left: 1px solid #4e4e4e;
+
+        &:last-of-type {
+          border-right: 1px solid #4e4e4e;
+        }
+
+        i {
+          color: $social-color;
+          font-size: px-to-rem(24px);
+
+          &:hover {
+            color: darken($social-color, 10%);
+          }
+        }
+      }
+    }
+  }
+
+  $color-why-donntu: #4776b7;
+  $color-goz: #4d9e9b;
+  $color-ask: #ccd71c;
+  $color-profile: #db6a3e;
+
+  $icon-user: url('../img/icons/user.png');
+  $icon-ask: url('../img/icons/question.png');
+  $icon-university: url('../img/icons/university.png');
+
+  $header-icons: (
+          why : $icon-university,
+          goz : $icon-university,
+          ask : $icon-ask,
+          profile : $icon-user
+  );
+
+  $header-icons-color: (
+          why : $color-why-donntu,
+          goz : $color-goz,
+          ask : $color-ask,
+          profile : $color-profile
+  );
+
+  .header-menu {
+    height: 150px;
+    max-height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    .brand {
+      margin-left: 10px;
+    }
+
+    .list-inline {
+      margin: 0;
+      margin-left: 100px;
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: space-between;
+    }
+
+  }
+
+  .list-inline-item {
+    display: flex;
+    align-items: center;
+    line-height: 0.5;
+    box-shadow: none;
+
+    a {
+      margin-left: 16px;
+      text-decoration: none;
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: bold;
+      color: #363636;
+      margin: 0;
+      align-self: center;
+    }
+    h3 {
+      font-size: 12px;
+      color: $primary-color;
+      margin: 0;
+      align-self: flex-start;
+    }
+
+    @each $theme, $color in $header-icons-color {
+      &--#{$theme}:before {
+        content: '';
+        display: block;
+        border-radius: 50%;
+        min-height: 39px;
+        min-width: 39px;
+
+        background: $color;
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+    }
+
+    @each $theme, $icon in $header-icons {
+      &--#{$theme}:before {
+        background-image: $icon;
+      }
+    }
+  }
+}
+

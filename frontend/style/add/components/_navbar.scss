@@ -1,0 +1,33 @@
+.navbar{
+  background: $primary-color;
+  font-family: $font-regular;
+  font-weight: bold;
+  justify-content: space-between;
+  padding: 0;
+
+
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  li{
+    display: inline-block;
+
+  }
+
+  .nav-link{
+    text-transform: uppercase;
+    color: white;
+    font-size: px-to-rem(18px);
+
+    &:hover{
+      color: darken(white, 30%);
+    }
+  }
+
+}
+
+

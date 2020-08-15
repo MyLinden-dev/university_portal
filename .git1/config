@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = git@bitbucket.org:donntu_portal/donntu_portal.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	puttykeyfile = C:\\Users\\El\\Documents\\PrivateKey.ppk
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master

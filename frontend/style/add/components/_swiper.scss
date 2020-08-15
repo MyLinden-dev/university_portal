@@ -1,0 +1,133 @@
+$bullet-color : #eee;
+$bullet-size : 22px;
+$slide-content-color: #b5ffe4;
+
+.slider{
+  position: relative;
+
+  .swiper-container{
+     height: px-to-vw(800px);
+     width: 100%;
+  }
+
+  .swiper-slide {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-size: px-to-rem(18px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0;
+  }
+
+  .slide-title{
+    width: 100%;
+    margin-top: px-to-vw(180px);
+    background-color: rgba(0,0,0,0.2);
+    padding: 1rem;
+    font-weight: bold;
+  }
+
+  .swiper-pagination{
+    position: static;
+    text-align: start;
+    margin-left: px-to-rem(30px);
+  }
+
+  .slider-footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 0;
+    bottom: 0;
+    transform: translateY(40%);
+    z-index: 9999;
+  }
+
+  .swiper-pagination-bullet{
+     background: none;
+     border: 2px solid $bullet-color;
+     width: $bullet-size;
+     height: $bullet-size;
+     opacity: 1;
+     margin-right: px-to-rem(7px);
+     margin-bottom: px-to-rem(10px);
+     outline: none;
+
+    &-active{
+      background: $bullet-color;
+    }
+  }
+}
+
+.statistics{
+  background: #fff;
+  ul{
+    list-style: none;
+    display: flex;
+    padding: px-to-rem(37px) 0;
+  }
+
+  li{
+    flex-basis: 0;
+    flex-grow: 1;
+    text-align: center;
+
+    h3{
+      color: $primary-color;
+      font-weight: bold;
+      font-size: px-to-rem(72px);
+    }
+    h4{
+      display: flex;
+      flex-direction: column;
+      color: #2d2d2d;
+      font-size: px-to-rem(18px);
+      word-break: break-all;
+    }
+
+    &:not(:last-of-type){
+      border-right: 2px solid #eee;
+    }
+  }
+
+}
+
+
+.event-info{
+  text-transform: uppercase;
+  color: $slide-content-color;
+  padding: px-to-rem(21px);
+  line-height: 0.5;
+
+  .event-title{
+    font-size: px-to-rem(55px);
+    font-weight: bold;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.2);
+  }
+
+  .event-date, .event-details{
+    font-size: px-to-rem(20px);
+    font-weight: bold;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.2);
+  }
+
+  .event-details{
+    margin-left: 2rem;
+  }
+
+
+
+  .event-ref{
+    margin-top: px-to-vw(70px);
+    font-size: px-to-vw(18px);
+    color: #000;
+    background-color: $slide-content-color;
+    border-color: $slide-content-color;
+    border-radius: 0;
+    padding: px-to-vw(17px);
+  }
+
+}

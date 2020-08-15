@@ -1,0 +1,31 @@
+{
+  "name": "don",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "vlad_luty <vlad112263@gmail.om>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "*",
+    "components-font-awesome": "*",
+    "inputmask": "jquery.inputmask#^4.0.4",
+    "jquery-touch-events": "^2.0.0",
+    "jquery": "^3.3.1",
+    "normalize.css": "*",
+    "popper.js": "^1.14.3",
+    "swiper": "^4.4.6",
+    "tether": "^1.4.0"
+  },
+  "devDependencies": {
+    "jquery": "^3.3.1"
+  }
+}

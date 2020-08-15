@@ -1,0 +1,32 @@
+#news-item-expand{
+
+  .news-item-header{
+    text-align: center;
+    font-weight: bold;
+    font-size: px-to-rem(24px);
+  }
+
+  .news-item-sections{
+    margin-top: px-to-rem(50px);
+
+    .section{
+      font-size: 1rem;
+      margin-top: px-to-rem(40px);
+
+      h2{
+        font-size: px-to-rem(18px);
+        font-weight: bold;
+      }
+
+      .content{
+
+      }
+
+      &:first-of-type{
+        margin-top: 0;
+      }
+    }
+
+  }
+
+}

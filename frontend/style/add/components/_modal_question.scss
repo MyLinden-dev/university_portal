@@ -1,0 +1,62 @@
+#sendQuestion{
+
+  z-index: 9999;
+  
+  color: white;
+
+  .modal-content{
+    background: rgba(0,0,0,0.6);
+    padding: px-to-rem(32px);
+  }
+
+  .modal-header{
+    border-bottom: 1px solid white;
+
+    .modal-title{
+      line-height: 1;
+      margin-bottom: 0;
+    }
+  }
+
+  .modal-footer{
+    border-top: none;
+    .btn{
+      border-radius: 0;
+      background: #fff;
+      color: #3c3c3c;
+      padding: px-to-rem(13px) px-to-rem(33px);
+    }
+  }
+
+  .close{
+    color: white;
+  }
+
+  
+  input, select, textarea {
+    background: #666;
+    border: none;
+    color: white;
+
+    &:focus{
+      border-color: rgba(0, 0, 0, 0.8);
+      box-shadow: 0 1px 1px rgba(255, 255, 255, 0.07) inset, 0 0 8px rgb(255, 255, 255);
+      outline: 0 none;
+    }
+
+  }
+
+  input:checked{
+    outline: black;
+  }
+
+  option{
+    color: white;
+
+    &:checked{
+      color: black;
+
+    }
+  }
+
+}

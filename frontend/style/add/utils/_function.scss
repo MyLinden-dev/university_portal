@@ -1,0 +1,19 @@
+@function px-to-em($px, $context : 16px){
+	@return ($px / $context) * 1em;
+}
+
+@function px-to-rem($px, $context : 16px){
+	@return ($px / $context) * 1rem;
+}
+
+@function px-to-vw($px, $context : 19.2px){
+	@return ($px / $context) * 1vw;
+}
+
+@function px-to-vh($px, $context : 10.8px){
+	@return ($px / $context) * 1vh;
+}
+
+@function strip-value($value){
+	@return $value / (($value * 0) + 1);
+}
